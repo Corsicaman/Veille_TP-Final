@@ -24,6 +24,7 @@ get_header();
 // The Loop
 if ( $query->have_posts() ) {
 	echo '<h1 id="titreAccueil" class="animTitre">Page d\'accueil personalisée</h1>';
+	echo '<h2 id="sousTitreAccueil" class="animTitre">Liste des évènements</h2>';
 	echo '<div id="grid">';
 	while ( $query->have_posts() ) {
 		$query->the_post();

@@ -27,7 +27,7 @@
 }
 
 .site-main {
-  @include bp(desktop) {
+  @include bp(tablette) {
     width: 80vw;
     margin: 0 auto;
 }
