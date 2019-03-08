@@ -24,7 +24,7 @@ wp_enqueue_script(
 
 
 
-
+// Ordre des pages
 function extraire_cours( $query ) {
    if ($query->is_category('cours'))
    {
