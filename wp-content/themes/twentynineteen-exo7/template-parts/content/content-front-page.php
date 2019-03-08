@@ -15,7 +15,7 @@
 		<?php
 		echo '<a href="';
 		echo (get_permalink());		
-		echo '"><div class="unCours session'.$var.'">';          
+		echo '"><div class="unCours">';          
 
 		echo '<h2 class="cours-title">';
 		echo(get_the_title());
