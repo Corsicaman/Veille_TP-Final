@@ -40,6 +40,8 @@
       grid-template-columns: 1fr 1fr 1fr; } }
 
 .unCours {
+  height: 100%;
+  width: 100%;
   color: #1572a9;
   padding: 15px;
   box-sizing: border-box;
@@ -64,6 +66,7 @@
 .cours-title:first-child::before {
   opacity: 0; }
 
+/* Couleurs par session*/
 .session1 {
   background-color: #eff599; }
 
