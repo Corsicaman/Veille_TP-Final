@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .animTitre {
   transition: transform 0.5;
   transform: translate(0);
@@ -126,3 +127,12 @@ h1 {
   -webkit-transform: translateY(-80px);
   transform: translateY(-80px);
   transition-timing-function: ease-in; }
+
+/*--------------------------------------------------------------
+## Article cours personalisé
+--------------------------------------------------------------*/
+.cours h1 {
+  color: #222; }
+
+.cours .entry-content p {
+  text-align: justify; }
