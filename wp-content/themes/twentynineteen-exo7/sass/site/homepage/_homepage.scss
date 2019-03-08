@@ -1,0 +1,14 @@
+.excerpt {
+    text-align: justify;
+    font-family: montserrat;
+    font-size: 14px;
+}
+
+#titreAccueil {
+    padding-left: 30px;
+    color: #222;
+
+    @include bp(desktop) {
+        padding-left: 0px;
+    }
+}

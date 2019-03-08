@@ -24,14 +24,33 @@ wp_enqueue_script(
 
 
 
-// Ordre des pages
+// Ordre des articles
 function extraire_cours( $query ) {
-   if ($query->is_category('cours'))
-   {
+   // if ($query->is_category('cours'))
+   // {
       $query->set( 'posts_per_page', -1 );
       $query->set( 'orderby', 'title' );
       $query->set( 'order', 'asc' );
-   }
+   // }
 }
 add_action( 'pre_get_posts', 'extraire_cours' );
+
+
+
+
+
+
+
+
+
+/**
+ * Filter the except length to 20 words.
+ *
+ * @param int $length Excerpt length.
+ * @return int (Maybe) modified excerpt length.
+ */
+function wpdocs_custom_excerpt_length( $length ) {
+    return 20;
+}
+add_filter( 'excerpt_length', 'wpdocs_custom_excerpt_length', 999 );
 ?>

@@ -22,6 +22,11 @@
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  twenty-nineteen-exo7
 */
+@media (min-width: 800px) {
+  .site-main {
+    width: 80vw;
+    margin: 0 auto; } }
+
 #grid {
   width: 100vw;
   margin: 0 auto;
@@ -140,3 +145,15 @@ h1 {
   text-align: justify;
   font-family: montserrat;
   font-size: 14px; }
+
+.excerpt {
+  text-align: justify;
+  font-family: montserrat;
+  font-size: 14px; }
+
+#titreAccueil {
+  padding-left: 30px;
+  color: #222; }
+  @media (min-width: 800px) {
+    #titreAccueil {
+      padding-left: 0px; } }

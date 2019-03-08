@@ -545,3 +545,102 @@
 [08-Mar-2019 20:50:20 UTC] PHP Notice:  Trying to get property 'term_id' of non-object in /Applications/MAMP/htdocs/Veille_TP-Final/wp-includes/class-wp-query.php on line 3669
 [08-Mar-2019 20:50:20 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/Veille_TP-Final/wp-includes/class-wp-query.php on line 3671
 [08-Mar-2019 20:50:20 UTC] PHP Notice:  Trying to get property 'slug' of non-object in /Applications/MAMP/htdocs/Veille_TP-Final/wp-includes/class-wp-query.php on line 3673
+[08-Mar-2019 23:22:06 UTC] PHP Notice:  Undefined variable: var in /Applications/MAMP/htdocs/Veille_TP-Final/wp-content/themes/twentynineteen-exo7/template-parts/content/content-front-page.php on line 18
+[08-Mar-2019 23:22:06 UTC] PHP Notice:  Undefined variable: var in /Applications/MAMP/htdocs/Veille_TP-Final/wp-content/themes/twentynineteen-exo7/template-parts/content/content-front-page.php on line 18
+[08-Mar-2019 23:22:06 UTC] PHP Notice:  Undefined variable: var in /Applications/MAMP/htdocs/Veille_TP-Final/wp-content/themes/twentynineteen-exo7/template-parts/content/content-front-page.php on line 18
+[08-Mar-2019 23:22:38 UTC] PHP Notice:  Undefined variable: var in /Applications/MAMP/htdocs/Veille_TP-Final/wp-content/themes/twentynineteen-exo7/template-parts/content/content-front-page.php on line 18
+[08-Mar-2019 23:22:38 UTC] PHP Notice:  Undefined variable: var in /Applications/MAMP/htdocs/Veille_TP-Final/wp-content/themes/twentynineteen-exo7/template-parts/content/content-front-page.php on line 18
+[08-Mar-2019 23:22:38 UTC] PHP Notice:  Undefined variable: var in /Applications/MAMP/htdocs/Veille_TP-Final/wp-content/themes/twentynineteen-exo7/template-parts/content/content-front-page.php on line 18
+[08-Mar-2019 23:23:39 UTC] PHP Notice:  Undefined variable: var in /Applications/MAMP/htdocs/Veille_TP-Final/wp-content/themes/twentynineteen-exo7/template-parts/content/content-front-page.php on line 18
+[08-Mar-2019 23:23:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_excerp() in /Applications/MAMP/htdocs/Veille_TP-Final/wp-content/themes/twentynineteen-exo7/template-parts/content/content-front-page.php:25
+Stack trace:
+#0 /Applications/MAMP/htdocs/Veille_TP-Final/wp-includes/template.php(706): require()
+#1 /Applications/MAMP/htdocs/Veille_TP-Final/wp-includes/template.php(653): load_template('/Applications/M...', false)
+#2 /Applications/MAMP/htdocs/Veille_TP-Final/wp-includes/general-template.php(157): locate_template(Array, true, false)
+#3 /Applications/MAMP/htdocs/Veille_TP-Final/wp-content/themes/twentynineteen-exo7/front-page.php(29): get_template_part('template-parts/...', 'front-page')
+#4 /Applications/MAMP/htdocs/Veille_TP-Final/wp-includes/template-loader.php(77): include('/Applications/M...')
+#5 /Applications/MAMP/htdocs/Veille_TP-Final/wp-blog-header.php(19): require_once('/Applications/M...')
+#6 /Applications/MAMP/htdocs/Veille_TP-Final/index.php(17): require('/Applications/M...')
+#7 {main}
+  thrown in /Applications/MAMP/htdocs/Veille_TP-Final/wp-content/themes/twentynineteen-exo7/template-parts/content/content-front-page.php on line 25
+[08-Mar-2019 23:23:48 UTC] PHP Notice:  Undefined variable: var in /Applications/MAMP/htdocs/Veille_TP-Final/wp-content/themes/twentynineteen-exo7/template-parts/content/content-front-page.php on line 18
+[08-Mar-2019 23:23:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_excerp() in /Applications/MAMP/htdocs/Veille_TP-Final/wp-content/themes/twentynineteen-exo7/template-parts/content/content-front-page.php:25
+Stack trace:
+#0 /Applications/MAMP/htdocs/Veille_TP-Final/wp-includes/template.php(706): require()
+#1 /Applications/MAMP/htdocs/Veille_TP-Final/wp-includes/template.php(653): load_template('/Applications/M...', false)
+#2 /Applications/MAMP/htdocs/Veille_TP-Final/wp-includes/general-template.php(157): locate_template(Array, true, false)
+#3 /Applications/MAMP/htdocs/Veille_TP-Final/wp-content/themes/twentynineteen-exo7/front-page.php(29): get_template_part('template-parts/...', 'front-page')
+#4 /Applications/MAMP/htdocs/Veille_TP-Final/wp-includes/template-loader.php(77): include('/Applications/M...')
+#5 /Applications/MAMP/htdocs/Veille_TP-Final/wp-blog-header.php(19): require_once('/Applications/M...')
+#6 /Applications/MAMP/htdocs/Veille_TP-Final/index.php(17): require('/Applications/M...')
+#7 {main}
+  thrown in /Applications/MAMP/htdocs/Veille_TP-Final/wp-content/themes/twentynineteen-exo7/template-parts/content/content-front-page.php on line 25
+[08-Mar-2019 23:24:11 UTC] PHP Notice:  Undefined variable: var in /Applications/MAMP/htdocs/Veille_TP-Final/wp-content/themes/twentynineteen-exo7/template-parts/content/content-front-page.php on line 18
+[08-Mar-2019 23:24:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_excerp() in /Applications/MAMP/htdocs/Veille_TP-Final/wp-content/themes/twentynineteen-exo7/template-parts/content/content-front-page.php:25
+Stack trace:
+#0 /Applications/MAMP/htdocs/Veille_TP-Final/wp-includes/template.php(706): require()
+#1 /Applications/MAMP/htdocs/Veille_TP-Final/wp-includes/template.php(653): load_template('/Applications/M...', false)
+#2 /Applications/MAMP/htdocs/Veille_TP-Final/wp-includes/general-template.php(157): locate_template(Array, true, false)
+#3 /Applications/MAMP/htdocs/Veille_TP-Final/wp-content/themes/twentynineteen-exo7/front-page.php(29): get_template_part('template-parts/...', 'front-page')
+#4 /Applications/MAMP/htdocs/Veille_TP-Final/wp-includes/template-loader.php(77): include('/Applications/M...')
+#5 /Applications/MAMP/htdocs/Veille_TP-Final/wp-blog-header.php(19): require_once('/Applications/M...')
+#6 /Applications/MAMP/htdocs/Veille_TP-Final/index.php(17): require('/Applications/M...')
+#7 {main}
+  thrown in /Applications/MAMP/htdocs/Veille_TP-Final/wp-content/themes/twentynineteen-exo7/template-parts/content/content-front-page.php on line 25
+[08-Mar-2019 23:24:35 UTC] PHP Notice:  Undefined variable: var in /Applications/MAMP/htdocs/Veille_TP-Final/wp-content/themes/twentynineteen-exo7/template-parts/content/content-front-page.php on line 18
+[08-Mar-2019 23:24:35 UTC] PHP Notice:  Undefined variable: var in /Applications/MAMP/htdocs/Veille_TP-Final/wp-content/themes/twentynineteen-exo7/template-parts/content/content-front-page.php on line 18
+[08-Mar-2019 23:24:35 UTC] PHP Notice:  Undefined variable: var in /Applications/MAMP/htdocs/Veille_TP-Final/wp-content/themes/twentynineteen-exo7/template-parts/content/content-front-page.php on line 18
+[08-Mar-2019 23:27:45 UTC] PHP Notice:  Undefined variable: var in /Applications/MAMP/htdocs/Veille_TP-Final/wp-content/themes/twentynineteen-exo7/template-parts/content/content-front-page.php on line 18
+[08-Mar-2019 23:27:45 UTC] PHP Notice:  Undefined variable: var in /Applications/MAMP/htdocs/Veille_TP-Final/wp-content/themes/twentynineteen-exo7/template-parts/content/content-front-page.php on line 18
+[08-Mar-2019 23:27:45 UTC] PHP Notice:  Undefined variable: var in /Applications/MAMP/htdocs/Veille_TP-Final/wp-content/themes/twentynineteen-exo7/template-parts/content/content-front-page.php on line 18
+[08-Mar-2019 23:27:51 UTC] PHP Notice:  Undefined variable: var in /Applications/MAMP/htdocs/Veille_TP-Final/wp-content/themes/twentynineteen-exo7/template-parts/content/content-front-page.php on line 18
+[08-Mar-2019 23:27:51 UTC] PHP Notice:  Undefined variable: var in /Applications/MAMP/htdocs/Veille_TP-Final/wp-content/themes/twentynineteen-exo7/template-parts/content/content-front-page.php on line 18
+[08-Mar-2019 23:27:51 UTC] PHP Notice:  Undefined variable: var in /Applications/MAMP/htdocs/Veille_TP-Final/wp-content/themes/twentynineteen-exo7/template-parts/content/content-front-page.php on line 18
+[08-Mar-2019 23:28:04 UTC] PHP Notice:  Undefined variable: var in /Applications/MAMP/htdocs/Veille_TP-Final/wp-content/themes/twentynineteen-exo7/template-parts/content/content-front-page.php on line 18
+[08-Mar-2019 23:28:04 UTC] PHP Notice:  Undefined variable: var in /Applications/MAMP/htdocs/Veille_TP-Final/wp-content/themes/twentynineteen-exo7/template-parts/content/content-front-page.php on line 18
+[08-Mar-2019 23:28:04 UTC] PHP Notice:  Undefined variable: var in /Applications/MAMP/htdocs/Veille_TP-Final/wp-content/themes/twentynineteen-exo7/template-parts/content/content-front-page.php on line 18
+[08-Mar-2019 23:28:15 UTC] PHP Notice:  Undefined variable: var in /Applications/MAMP/htdocs/Veille_TP-Final/wp-content/themes/twentynineteen-exo7/template-parts/content/content-front-page.php on line 18
+[08-Mar-2019 23:28:15 UTC] PHP Notice:  Undefined variable: var in /Applications/MAMP/htdocs/Veille_TP-Final/wp-content/themes/twentynineteen-exo7/template-parts/content/content-front-page.php on line 18
+[08-Mar-2019 23:28:15 UTC] PHP Notice:  Undefined variable: var in /Applications/MAMP/htdocs/Veille_TP-Final/wp-content/themes/twentynineteen-exo7/template-parts/content/content-front-page.php on line 18
+[08-Mar-2019 23:29:02 UTC] PHP Notice:  Undefined variable: var in /Applications/MAMP/htdocs/Veille_TP-Final/wp-content/themes/twentynineteen-exo7/template-parts/content/content-front-page.php on line 18
+[08-Mar-2019 23:29:02 UTC] PHP Notice:  Undefined variable: var in /Applications/MAMP/htdocs/Veille_TP-Final/wp-content/themes/twentynineteen-exo7/template-parts/content/content-front-page.php on line 18
+[08-Mar-2019 23:29:02 UTC] PHP Notice:  Undefined variable: var in /Applications/MAMP/htdocs/Veille_TP-Final/wp-content/themes/twentynineteen-exo7/template-parts/content/content-front-page.php on line 18
+[08-Mar-2019 23:31:19 UTC] PHP Notice:  Undefined variable: var in /Applications/MAMP/htdocs/Veille_TP-Final/wp-content/themes/twentynineteen-exo7/template-parts/content/content-front-page.php on line 18
+[08-Mar-2019 23:31:19 UTC] PHP Notice:  Undefined variable: var in /Applications/MAMP/htdocs/Veille_TP-Final/wp-content/themes/twentynineteen-exo7/template-parts/content/content-front-page.php on line 18
+[08-Mar-2019 23:31:19 UTC] PHP Notice:  Undefined variable: var in /Applications/MAMP/htdocs/Veille_TP-Final/wp-content/themes/twentynineteen-exo7/template-parts/content/content-front-page.php on line 18
+[08-Mar-2019 23:32:19 UTC] PHP Notice:  Undefined variable: var in /Applications/MAMP/htdocs/Veille_TP-Final/wp-content/themes/twentynineteen-exo7/template-parts/content/content-front-page.php on line 18
+[08-Mar-2019 23:32:19 UTC] PHP Notice:  Undefined variable: var in /Applications/MAMP/htdocs/Veille_TP-Final/wp-content/themes/twentynineteen-exo7/template-parts/content/content-front-page.php on line 18
+[08-Mar-2019 23:32:19 UTC] PHP Notice:  Undefined variable: var in /Applications/MAMP/htdocs/Veille_TP-Final/wp-content/themes/twentynineteen-exo7/template-parts/content/content-front-page.php on line 18
+[08-Mar-2019 23:32:37 UTC] PHP Notice:  Undefined variable: var in /Applications/MAMP/htdocs/Veille_TP-Final/wp-content/themes/twentynineteen-exo7/template-parts/content/content-front-page.php on line 18
+[08-Mar-2019 23:32:37 UTC] PHP Notice:  Undefined variable: var in /Applications/MAMP/htdocs/Veille_TP-Final/wp-content/themes/twentynineteen-exo7/template-parts/content/content-front-page.php on line 18
+[08-Mar-2019 23:32:37 UTC] PHP Notice:  Undefined variable: var in /Applications/MAMP/htdocs/Veille_TP-Final/wp-content/themes/twentynineteen-exo7/template-parts/content/content-front-page.php on line 18
+[08-Mar-2019 23:33:20 UTC] PHP Notice:  Undefined variable: var in /Applications/MAMP/htdocs/Veille_TP-Final/wp-content/themes/twentynineteen-exo7/template-parts/content/content-front-page.php on line 18
+[08-Mar-2019 23:33:20 UTC] PHP Notice:  Undefined variable: var in /Applications/MAMP/htdocs/Veille_TP-Final/wp-content/themes/twentynineteen-exo7/template-parts/content/content-front-page.php on line 18
+[08-Mar-2019 23:33:20 UTC] PHP Notice:  Undefined variable: var in /Applications/MAMP/htdocs/Veille_TP-Final/wp-content/themes/twentynineteen-exo7/template-parts/content/content-front-page.php on line 18
+[08-Mar-2019 23:33:59 UTC] PHP Notice:  Undefined variable: var in /Applications/MAMP/htdocs/Veille_TP-Final/wp-content/themes/twentynineteen-exo7/template-parts/content/content-front-page.php on line 18
+[08-Mar-2019 23:33:59 UTC] PHP Notice:  Undefined variable: var in /Applications/MAMP/htdocs/Veille_TP-Final/wp-content/themes/twentynineteen-exo7/template-parts/content/content-front-page.php on line 18
+[08-Mar-2019 23:33:59 UTC] PHP Notice:  Undefined variable: var in /Applications/MAMP/htdocs/Veille_TP-Final/wp-content/themes/twentynineteen-exo7/template-parts/content/content-front-page.php on line 18
+[08-Mar-2019 23:34:38 UTC] PHP Notice:  Undefined variable: var in /Applications/MAMP/htdocs/Veille_TP-Final/wp-content/themes/twentynineteen-exo7/template-parts/content/content-front-page.php on line 18
+[08-Mar-2019 23:34:38 UTC] PHP Notice:  Undefined variable: var in /Applications/MAMP/htdocs/Veille_TP-Final/wp-content/themes/twentynineteen-exo7/template-parts/content/content-front-page.php on line 18
+[08-Mar-2019 23:34:38 UTC] PHP Notice:  Undefined variable: var in /Applications/MAMP/htdocs/Veille_TP-Final/wp-content/themes/twentynineteen-exo7/template-parts/content/content-front-page.php on line 18
+[08-Mar-2019 23:34:39 UTC] PHP Notice:  Undefined variable: var in /Applications/MAMP/htdocs/Veille_TP-Final/wp-content/themes/twentynineteen-exo7/template-parts/content/content-front-page.php on line 18
+[08-Mar-2019 23:34:39 UTC] PHP Notice:  Undefined variable: var in /Applications/MAMP/htdocs/Veille_TP-Final/wp-content/themes/twentynineteen-exo7/template-parts/content/content-front-page.php on line 18
+[08-Mar-2019 23:34:39 UTC] PHP Notice:  Undefined variable: var in /Applications/MAMP/htdocs/Veille_TP-Final/wp-content/themes/twentynineteen-exo7/template-parts/content/content-front-page.php on line 18
+[08-Mar-2019 23:34:42 UTC] PHP Notice:  Undefined variable: var in /Applications/MAMP/htdocs/Veille_TP-Final/wp-content/themes/twentynineteen-exo7/template-parts/content/content-front-page.php on line 18
+[08-Mar-2019 23:34:42 UTC] PHP Notice:  Undefined variable: var in /Applications/MAMP/htdocs/Veille_TP-Final/wp-content/themes/twentynineteen-exo7/template-parts/content/content-front-page.php on line 18
+[08-Mar-2019 23:34:42 UTC] PHP Notice:  Undefined variable: var in /Applications/MAMP/htdocs/Veille_TP-Final/wp-content/themes/twentynineteen-exo7/template-parts/content/content-front-page.php on line 18
+[08-Mar-2019 23:35:16 UTC] PHP Notice:  Undefined variable: var in /Applications/MAMP/htdocs/Veille_TP-Final/wp-content/themes/twentynineteen-exo7/template-parts/content/content-front-page.php on line 18
+[08-Mar-2019 23:35:16 UTC] PHP Notice:  Undefined variable: var in /Applications/MAMP/htdocs/Veille_TP-Final/wp-content/themes/twentynineteen-exo7/template-parts/content/content-front-page.php on line 18
+[08-Mar-2019 23:35:16 UTC] PHP Notice:  Undefined variable: var in /Applications/MAMP/htdocs/Veille_TP-Final/wp-content/themes/twentynineteen-exo7/template-parts/content/content-front-page.php on line 18
+[08-Mar-2019 23:35:27 UTC] PHP Notice:  Undefined variable: var in /Applications/MAMP/htdocs/Veille_TP-Final/wp-content/themes/twentynineteen-exo7/template-parts/content/content-front-page.php on line 18
+[08-Mar-2019 23:35:27 UTC] PHP Notice:  Undefined variable: var in /Applications/MAMP/htdocs/Veille_TP-Final/wp-content/themes/twentynineteen-exo7/template-parts/content/content-front-page.php on line 18
+[08-Mar-2019 23:35:27 UTC] PHP Notice:  Undefined variable: var in /Applications/MAMP/htdocs/Veille_TP-Final/wp-content/themes/twentynineteen-exo7/template-parts/content/content-front-page.php on line 18
+[08-Mar-2019 23:36:44 UTC] PHP Notice:  Undefined variable: var in /Applications/MAMP/htdocs/Veille_TP-Final/wp-content/themes/twentynineteen-exo7/template-parts/content/content-front-page.php on line 18
+[08-Mar-2019 23:36:44 UTC] PHP Notice:  Undefined variable: var in /Applications/MAMP/htdocs/Veille_TP-Final/wp-content/themes/twentynineteen-exo7/template-parts/content/content-front-page.php on line 18
+[08-Mar-2019 23:36:44 UTC] PHP Notice:  Undefined variable: var in /Applications/MAMP/htdocs/Veille_TP-Final/wp-content/themes/twentynineteen-exo7/template-parts/content/content-front-page.php on line 18
+[08-Mar-2019 23:37:20 UTC] PHP Notice:  Undefined variable: var in /Applications/MAMP/htdocs/Veille_TP-Final/wp-content/themes/twentynineteen-exo7/template-parts/content/content-front-page.php on line 18
+[08-Mar-2019 23:37:20 UTC] PHP Notice:  Undefined variable: var in /Applications/MAMP/htdocs/Veille_TP-Final/wp-content/themes/twentynineteen-exo7/template-parts/content/content-front-page.php on line 18
+[08-Mar-2019 23:37:20 UTC] PHP Notice:  Undefined variable: var in /Applications/MAMP/htdocs/Veille_TP-Final/wp-content/themes/twentynineteen-exo7/template-parts/content/content-front-page.php on line 18
+[08-Mar-2019 23:38:17 UTC] PHP Notice:  Undefined variable: var in /Applications/MAMP/htdocs/Veille_TP-Final/wp-content/themes/twentynineteen-exo7/template-parts/content/content-front-page.php on line 18
+[08-Mar-2019 23:38:17 UTC] PHP Notice:  Undefined variable: var in /Applications/MAMP/htdocs/Veille_TP-Final/wp-content/themes/twentynineteen-exo7/template-parts/content/content-front-page.php on line 18
+[08-Mar-2019 23:38:17 UTC] PHP Notice:  Undefined variable: var in /Applications/MAMP/htdocs/Veille_TP-Final/wp-content/themes/twentynineteen-exo7/template-parts/content/content-front-page.php on line 18
