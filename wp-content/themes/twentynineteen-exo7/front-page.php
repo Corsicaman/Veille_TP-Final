@@ -30,7 +30,7 @@ get_header();
 			<?php
 			$query = new WP_Query( array( 'category_name' => 'evenement' ) );
 // The Loop
-			wp_list_pages();
+			// wp_list_pages();
 		if ( $query->have_posts() ) {
 			echo '<h1 id="titreAccueil" class="animTitre">Page d\'accueil personalisée</h1>';
 			echo '<h2 id="sousTitreAccueil" class="animTitre">Liste des évènements</h2>';

@@ -1,5 +1,5 @@
 $("#checkMenu").click(function() {
-
+	console.log("Allo");
     if ($(this).is(':checked')) {
         $("#titre > p").addClass("titreAnim");
         $(".separateur_01").addClass("sepa_sitePortfolio");
@@ -11,6 +11,4 @@ $("#checkMenu").click(function() {
         $("#soustitre2").removeClass("txt_sitePortfolio");
         $("#soustitre").removeClass("txt_sousTitre");
     }
-
-
 });

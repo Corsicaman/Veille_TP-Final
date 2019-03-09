@@ -44,33 +44,33 @@
                     </li>
                     <div class="separateur separateur_02"></div>
                     <a href="index.htm">
-                        <li><i class="material-icons">home</i>
+                        <li>
                             <p>Accueil</p>
                         </li>
                     </a>
                     <a href="video.htm">
-                        <li><i class="material-icons">videocam</i>
+                        <li>
                             <p>Production vidéo</p>
                         </li>
                     </a>
                     <a href="photographie.htm">
-                        <li><i class="material-icons">photo_camera</i>
+                        <li>
                             <p>Photographie</p>
                         </li>
                     </a>
                     <a href="design.htm">
-                        <li><i class="material-icons">create</i>
+                        <li>
                             <p>Design graphique</p>
                         </li>
                     </a>
                     <a href="web.htm">
-                        <li class="actif"><i class="material-icons">laptop_mac</i>
+                        <li class="actif">
                             <p>Conception web</p>
                         </li>
                     </a>
                     <div class="separateur separateur_03"></div>
                     <a href="contact.htm">
-                        <li><i class="material-icons">phone</i>
+                        <li>
                             <p>Contact</p>
                         </li>
                     </a>
@@ -78,7 +78,23 @@
             </div>
         </nav>
 
-
+<script>
+	$("#checkMenu").click(function() {
+    if ($(this).is(':checked')) {
+	console.log("Allo");
+        $("#titre > p").addClass("titreAnim");
+        $(".separateur_01").addClass("sepa_sitePortfolio");
+        $("#soustitre2").addClass("txt_sitePortfolio");
+        $("#soustitre").addClass("txt_sousTitre");
+    } else {
+	console.log("Allo2");
+        $("#titre > p").removeClass("titreAnim");
+        $(".separateur_01").removeClass("sepa_sitePortfolio");
+        $("#soustitre2").removeClass("txt_sitePortfolio");
+        $("#soustitre").removeClass("txt_sousTitre");
+    }
+});
+</script>
 	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'twentynineteen' ); ?></a>
 
 		<header id="masthead" class="<?php echo is_singular() && twentynineteen_can_show_post_thumbnail() ? 'site-header featured-image' : 'site-header'; ?>">
