@@ -19,6 +19,12 @@ wp_enqueue_script(
     array(),
     filemtime( get_stylesheet_directory() . '/js/animation.js' )
 );
+wp_enqueue_script(
+    'menu',
+    get_stylesheet_directory_uri() . '/js/menu.js',
+    array(),
+    filemtime( get_stylesheet_directory() . '/js/menu.js' )
+);
 }
 
 
