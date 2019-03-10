@@ -18,19 +18,23 @@
     $bp-desktop: "(min-width: 800px)";
 
     @if $point==desktop {
-        @media #{$bp-desktop} {@content; } 
+        @media #{$bp-desktop} {
+            @content;
+        }
     }
 
     @else if $point==tablette {
-        @media #{$bp-tablette} {@content; } 
+        @media #{$bp-tablette} {
+            @content;
+        }
     }
 }
 
 .site-main {
-  @include bp(tablette) {
-    width: 80vw;
-    margin: 0 auto;
-}
+    @include bp(tablette) {
+        width: 80vw;
+        margin: 0 auto;
+    }
 }
 
 #grid {
@@ -39,17 +43,19 @@
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
     grid-gap: 20px;
-  @include bp(tablette) {
-    width: 80vw;
-    -ms-grid-columns: 1fr 1fr;
+
+    @include bp(tablette) {
+        width: 80vw;
+        -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
-  }
-  @include bp(desktop) {
-    -ms-grid-columns: 1fr 1fr 1fr;
+    }
+
+    @include bp(desktop) {
+        -ms-grid-columns: 1fr 1fr 1fr;
         grid-template-columns: 1fr 1fr 1fr;
-  }
+    }
 }
 
 .unCours {
@@ -75,11 +81,13 @@
     font-size: 20px;
     color: #444;
 }
+
 .cours-title {
     text-transform: uppercase;
     font-size: 20px;
     color: #2b4d9f;
 }
+
 .cours-title:first-child::before {
     opacity: 0;
 }
@@ -90,18 +98,23 @@
 .session1 {
     background-color: #eff599;
 }
+
 .session2 {
     background-color: #f4e590;
 }
+
 .session3 {
     background-color: #f4d17d;
 }
+
 .session4 {
     background-color: #f4bf6c;
 }
+
 .session5 {
     background-color: #f4a85b;
 }
+
 .session6 {
     background-color: #f49366;
 }
@@ -167,7 +180,7 @@ figure img {
     transition: transform 0.5s, opacity 0.5s, -webkit-transform 0.5s;
     transition-delay: 0.2s;
     -webkit-transform: translateX(-100px);
-            transform: translateX(-100px);
+    transform: translateX(-100px);
     opacity: 0;
 }
 
@@ -180,9 +193,6 @@ h1 {
     transition: transform 0.5s, opacity 0.5s, -webkit-transform 0.5s;
     opacity: 0;
     -webkit-transform: translateY(-80px);
-            transform: translateY(-80px);
+    transform: translateY(-80px);
     transition-timing-function: ease-in;
 }
-
-
-
