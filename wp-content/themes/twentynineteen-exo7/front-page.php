@@ -27,13 +27,15 @@ get_header();
 
 
 
-			<?php
-			$query = new WP_Query( array( 'category_name' => 'evenement' ) );
-// The Loop
-			// wp_list_pages();
+		<?php
+
+		echo '<h1 id="titreAccueil" class="animTitre">Bienvenue sur le site du TIM</h1>';
+		echo '<a href="/Veille_TP-Final/cours/"><h2 style="margin-top: -30px;" class="cours-title animTitre">> Voir la grille des cours</h2></a>';
+
+		// LISTE DES DERNIÈRES NOUVELLES
+		$query = new WP_Query( array( 'category_name' => 'nouvelle' ) );
 		if ( $query->have_posts() ) {
-			echo '<h1 id="titreAccueil" class="animTitre">Page d\'accueil personalisée</h1>';
-			echo '<h2 id="sousTitreAccueil" class="animTitre">Liste des évènements</h2>';
+			echo '<h2 class="sousTitreAccueil animTitre">Dernières nouvelles</h2>';
 			echo '<div id="grid">';
 			while ( $query->have_posts() ) {
 				$query->the_post();
@@ -43,6 +45,20 @@ get_header();
 			/* Restore original Post Data */
 			wp_reset_postdata();
 			}
+
+		// LISTE DES ÉVÈNEMENTS À VENIR
+		$query = new WP_Query( array( 'category_name' => 'evenement' ) );
+		if ( $query->have_posts() ) {
+			echo '<h2 class="sousTitreAccueil animTitre">Évènements à venir</h2>';
+			echo '<div id="grid">';
+			while ( $query->have_posts() ) {
+				$query->the_post();
+				get_template_part( 'template-parts/content/content', 'front-page' );
+			}
+			echo '</div>';
+			/* Restore original Post Data */
+			wp_reset_postdata();
+			}			
 			?>
 
 		</main><!-- #main -->

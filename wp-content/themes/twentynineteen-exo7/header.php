@@ -1,6 +1,6 @@
 <?php
 /**
- * The header for our theme
+ * Le header du thème enfant
  *
  * This is the template that displays all of the <head> section and everything up until <div id="content">
  *
@@ -16,6 +16,7 @@
 	<meta charset="<?php bloginfo( 'charset' ); ?>" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<link rel="profile" href="https://gmpg.org/xfn/11" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900i" rel="stylesheet">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
 	<?php wp_head(); ?>
 </head>
@@ -32,44 +33,43 @@
                 <span></span>
                 <ul id="menuMob">
                     <li id="titre">
-                        <p>LUCAS THEILLET</p>
+                        <p>Programmation et veille technologique</p>
                     </li>
                     <li id="soustitre">
-                        <p>Conception visuelle</p>
+                        <p>Thème Wordpress personalisé</p>
                     </li>
                     <div class="separateur separateur_01"></div>
                     <li id="soustitre2">
-                        <p>Site portfolio © 2014-<script>var CurrentYear = new Date().getFullYear()
-            document.write(CurrentYear)</script></p>
+                        <p>TP 2 - Session hiver 2018</p>
                     </li>
                     <div class="separateur separateur_02"></div>
-                    <a href="index.htm">
+                    <a href="/Veille_TP-Final">
                         <li>
-                            <p>Accueil</p>
+                            <p>Page d'accueil</p>
                         </li>
                     </a>
-                    <a href="video.htm">
+                    <a href="/Veille_TP-Final/cours/">
                         <li>
-                            <p>Production vidéo</p>
+                            <p>Grille des cours</p>
                         </li>
                     </a>
-                    <a href="photographie.htm">
+                    <a href="/Veille_TP-Final/cours/tim-151/">
                         <li>
-                            <p>Photographie</p>
+                            <p>Cours de création web</p>
                         </li>
                     </a>
-                    <a href="design.htm">
+                    <a href="/Veille_TP-Final/cours/tim-243/">
                         <li>
-                            <p>Design graphique</p>
+                            <p>Cours de programmation web</p>
                         </li>
                     </a>
-                    <a href="web.htm">
-                        <li class="actif">
-                            <p>Conception web</p>
+                    <a href="/Veille_TP-Final/cours/tim-554/">
+                        <li>
+                            <p>Cours de production web</p>
                         </li>
                     </a>
                     <div class="separateur separateur_03"></div>
-                    <a href="contact.htm">
+                    <a target="_blank" href="http://www.lucas-theillet.com">
                         <li>
                             <p>Contact</p>
                         </li>

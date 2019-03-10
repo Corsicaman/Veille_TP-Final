@@ -61,11 +61,12 @@
     background-color: #eee;
     border: 1px solid #ddd;
     border-radius: 2px;
-    transition: box-shadow 0.2s, border 0.2s;
+    transition: box-shadow 0.2s, border 0.2s, transform 0.2s;
 
     &:hover {
         box-shadow: 0 0 7px #bbb;
         border-color: #1572a9;
+        transform: translateY(-5px);
     }
 }
 

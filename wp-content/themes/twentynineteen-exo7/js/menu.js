@@ -1,5 +1,4 @@
 $("#checkMenu").click(function() {
-	console.log("Allo");
     if ($(this).is(':checked')) {
         $("#titre > p").addClass("titreAnim");
         $(".separateur_01").addClass("sepa_sitePortfolio");
