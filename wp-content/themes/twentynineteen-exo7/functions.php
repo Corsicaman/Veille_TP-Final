@@ -45,10 +45,6 @@ add_action( 'pre_get_posts', 'extraire_cours' );
 
 
 
-
-
-
-
 /**
  * Filter the except length to 20 words.
  *
