@@ -36,7 +36,7 @@
 
 				echo '<h2 class="cours-title">Durée du cours</h2>';
 				echo '<p class="texteCours">';
-				// Enseignants par défaut
+				// Durée par défaut
 				if (get_field('duree') == '') {
 					echo '40 heures';
 				}
@@ -53,10 +53,23 @@
 					echo 'Eddy Martin, Caroline Martin';
 				}
 				else {
-				echo (get_field('enseignants'));
-
+					echo (get_field('enseignants'));
 				}
 				echo '</p>';
+
+
+				echo '<h2 class="cours-title">Projets développés pendant ce cours</h2>';
+				echo '<p class="texteCours">';
+				// Projets par défaut
+				if (get_field('projets') == '') {
+					echo '- Projet en groupe de 5 de conception et de développement.';
+					echo '<br>- Projet personnel de veille technologique.';
+				}
+				else {
+					echo (get_field('projets'));
+				}
+				echo '</p>';
+
 
 				
 				echo '</div>';
