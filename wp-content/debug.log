@@ -851,3 +851,5 @@ Stack trace:
 [10-Mar-2019 22:15:18 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /Applications/MAMP/htdocs/Veille_TP-Final/wp-content/themes/twentynineteen-exo7/template-parts/content/content-single-cours.php on line 47
 [10-Mar-2019 22:15:22 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /Applications/MAMP/htdocs/Veille_TP-Final/wp-content/themes/twentynineteen-exo7/template-parts/content/content-single-cours.php on line 47
 [10-Mar-2019 22:15:42 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /Applications/MAMP/htdocs/Veille_TP-Final/wp-content/themes/twentynineteen-exo7/template-parts/content/content-single-cours.php on line 47
+[10-Mar-2019 22:50:18 UTC] PHP Parse error:  syntax error, unexpected ')' in /Applications/MAMP/htdocs/Veille_TP-Final/wp-content/themes/twentynineteen-exo7/front-page.php on line 52
+[10-Mar-2019 22:50:25 UTC] PHP Parse error:  syntax error, unexpected ')' in /Applications/MAMP/htdocs/Veille_TP-Final/wp-content/themes/twentynineteen-exo7/front-page.php on line 52

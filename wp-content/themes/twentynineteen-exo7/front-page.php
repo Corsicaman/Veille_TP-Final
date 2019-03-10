@@ -35,7 +35,7 @@ get_header();
 
 		// LISTE DES DERNIÈRES NOUVELLES
 		$query = new WP_Query( array( 'category_name' => 'nouvelle' ) );
-		if ( $query->have_posts() ) {
+		if ( $query->have_posts()) {
 			echo '<h2 class="sousTitreAccueil animTitre">Dernières nouvelles</h2>';
 			echo '<div id="grid">';
 			while ( $query->have_posts() ) {
@@ -49,7 +49,7 @@ get_header();
 
 		// LISTE DES ÉVÈNEMENTS À VENIR
 		$query = new WP_Query( array( 'category_name' => 'evenement' ) );
-		if ( $query->have_posts() ) {
+		if ( $query->have_posts()) {
 			echo '<h2 class="sousTitreAccueil animTitre">Évènements à venir</h2>';
 			echo '<div id="grid">';
 			while ( $query->have_posts() ) {
