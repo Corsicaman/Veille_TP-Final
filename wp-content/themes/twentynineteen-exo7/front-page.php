@@ -30,7 +30,8 @@ get_header();
 		<?php
 
 		echo '<h1 id="titreAccueil" class="animTitre">Bienvenue sur le site du TIM</h1>';
-		echo '<a href="/Veille_TP-Final/cours/"><h2 style="margin-top: -30px;" class="cours-title animTitre">> Voir la grille des cours</h2></a>';
+		echo '<p class="desc">Vous trouverez ici des informations concernant les dernières nouvelles en lien avec le Collège de Maisonneuve et le programme d\'intégration multimédia, ainsi que les prochains évènements à venir.</p>';
+		echo '<a href="/Veille_TP-Final/cours/"><h2 style="margin-top: -30px; font-size: 16px;" class="cours-title animTitre">> Voir la grille des cours</h2></a>';
 
 		// LISTE DES DERNIÈRES NOUVELLES
 		$query = new WP_Query( array( 'category_name' => 'nouvelle' ) );
