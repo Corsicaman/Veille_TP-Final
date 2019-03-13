@@ -8,7 +8,7 @@ $parent_style = 'twentynineteen-style'; // This is 'twentynineteen-style' for th
 wp_enqueue_style ( $parent_style, get_template_directory_uri() .'/style.css' );
 
 wp_enqueue_style(
-'twentynineteen-style-exo7',
+'twentynineteen-style-veille',
 get_stylesheet_directory_uri() .'/style.css',
 array(),
 filemtime( get_stylesheet_directory() .'/style.css' )
