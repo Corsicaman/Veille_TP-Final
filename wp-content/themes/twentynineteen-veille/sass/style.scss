@@ -1,4 +1,8 @@
-@import "animations.scss";
-@import "main.scss";
+@import "mixins/mixins-master.scss";
+@import "variable-site/variables.scss";
+@import "variable-site/animations.scss";
+@import "variable-site/global.scss";
+
+
 @import "site/site.scss";
-@import "components/menu.scss";
+@import "navigation/menu.scss";

@@ -1,34 +1,5 @@
-/*
- Theme Name:   Twenty Nineteen Exo7
- Theme URI:    http://example.com/twenty-nineteen-exo7/
- Description:  Twenty nineteen Child Theme
- Author:       John Doe
- Author URI:   http://example.com
- Template:     twentynineteen
- Version:      1.0.0
- License:      GNU General Public License v2 or later
- License URI:  http://www.gnu.org/licenses/gpl-2.0.html
- Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
- Text Domain:  twenty-nineteen-exo7
-*/
 
-@mixin bp($point) {
 
-    $bp-tablette: "(min-width: 500px)";
-    $bp-desktop: "(min-width: 800px)";
-
-    @if $point==desktop {
-        @media #{$bp-desktop} {
-            @content;
-        }
-    }
-
-    @else if $point==tablette {
-        @media #{$bp-tablette} {
-            @content;
-        }
-    }
-}
 
 .site-main {
     @include bp(tablette) {
@@ -96,27 +67,27 @@
 
 /* Couleurs par session*/
 .session1 {
-    background-color: #eff599;
+    background-color: $color-session-1;
 }
 
 .session2 {
-    background-color: #f4e590;
+    background-color: $color-session-2;
 }
 
 .session3 {
-    background-color: #f4d17d;
+    background-color: $color-session-3;
 }
 
 .session4 {
-    background-color: #f4bf6c;
+    background-color: $color-session-4;
 }
 
 .session5 {
-    background-color: #f4a85b;
+    background-color: $color-session-5;
 }
 
 .session6 {
-    background-color: #f49366;
+    background-color: $color-session-6;
 }
 
 
