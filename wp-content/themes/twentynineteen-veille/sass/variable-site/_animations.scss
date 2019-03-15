@@ -1,0 +1,102 @@
+.animTitre {
+    -webkit-animation: 1s ease coursIn forwards;
+            animation: 1s ease coursIn forwards;
+    -webkit-transform: translate(-30px);
+            transform: translate(-30px);
+    opacity: 0;
+}
+
+@-webkit-keyframes fadeInTop {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(-30px);
+                transform: translateY(-30px);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+                transform: translateY(0);
+    }
+}
+
+@keyframes fadeInTop {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(-30px);
+                transform: translateY(-30px);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+                transform: translateY(0);
+    }
+}
+
+.animImg {
+    -webkit-animation: 1s ease coursIn forwards;
+            animation: 1s ease coursIn forwards;
+    -webkit-transform: translate(-30px);
+            transform: translate(-30px);
+    opacity: 0;
+}
+
+.unCours {
+    -webkit-animation: 0.6s ease coursIn forwards;
+            animation: 0.6s ease coursIn forwards;
+    opacity: 0;
+    -webkit-transform: translateY(-30px);
+            transform: translateY(-30px);
+    transition: background-color 100ms linear !important;
+
+}
+
+.unCours:hover {
+    background-color: #2b4d9f;
+
+    * {
+        color: white !important;
+    }
+}
+
+@-webkit-keyframes coursIn {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(-30px);
+                transform: translateY(-30px);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+                transform: translateY(0);
+    }
+}
+
+@keyframes coursIn {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(-30px);
+                transform: translateY(-30px);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+                transform: translateY(0);
+    }
+}
+
+
+/* On fait une boucle de 1 à 29 pour parcourir tous les cours*/
+@for $i from 1 through 29 {
+    #grid a {
+
+        &:nth-child(#{$i}) .unCours {
+            /* On ajoute un délai d'animation à chaque cours proportionnel à sa position*/
+            -webkit-animation-delay: $i * (0.2s);
+                    animation-delay: $i * (0.2s);
+        }
+    }
+}

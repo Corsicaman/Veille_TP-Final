@@ -1,0 +1,17 @@
+@mixin bp($point) {
+
+    $bp-tablette: "(min-width: 500px)";
+    $bp-desktop: "(min-width: 800px)";
+
+    @if $point==desktop {
+        @media #{$bp-desktop} {
+            @content;
+        }
+    }
+
+    @else if $point==tablette {
+        @media #{$bp-tablette} {
+            @content;
+        }
+    }
+}
