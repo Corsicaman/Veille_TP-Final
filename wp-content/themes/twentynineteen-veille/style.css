@@ -1,13 +1,216 @@
 @charset "UTF-8";
 .animTitre {
-  transition: transform 0.5;
-  transform: translate(0);
-  opacity: 1; }
+  -webkit-animation: 1s ease coursIn forwards;
+  animation: 1s ease coursIn forwards;
+  -webkit-transform: translate(-30px);
+  transform: translate(-30px);
+  opacity: 0; }
+
+@-webkit-keyframes fadeInTop {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px); }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0); } }
+
+@keyframes fadeInTop {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px); }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0); } }
 
 .animImg {
-  transition: transform 0.5;
-  transform: translate(0);
-  opacity: 1; }
+  -webkit-animation: 1s ease coursIn forwards;
+  animation: 1s ease coursIn forwards;
+  -webkit-transform: translate(-30px);
+  transform: translate(-30px);
+  opacity: 0; }
+
+.unCours {
+  -webkit-animation: 0.6s ease coursIn forwards;
+  animation: 0.6s ease coursIn forwards;
+  opacity: 0;
+  -webkit-transform: translateY(-30px);
+  transform: translateY(-30px);
+  transition: background-color 100ms linear !important; }
+
+.unCours:hover {
+  background-color: #2b4d9f; }
+  .unCours:hover * {
+    color: white !important; }
+
+@-webkit-keyframes coursIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px); }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0); } }
+
+@keyframes coursIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px); }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0); } }
+
+/* On fait une boucle de 1 à 29 pour parcourir tous les cours*/
+#grid a:nth-child(1) .unCours {
+  /* On ajoute un délai d'animation à chaque cours proportionnel à sa position*/
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s; }
+
+#grid a:nth-child(2) .unCours {
+  /* On ajoute un délai d'animation à chaque cours proportionnel à sa position*/
+  -webkit-animation-delay: 0.4s;
+  animation-delay: 0.4s; }
+
+#grid a:nth-child(3) .unCours {
+  /* On ajoute un délai d'animation à chaque cours proportionnel à sa position*/
+  -webkit-animation-delay: 0.6s;
+  animation-delay: 0.6s; }
+
+#grid a:nth-child(4) .unCours {
+  /* On ajoute un délai d'animation à chaque cours proportionnel à sa position*/
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s; }
+
+#grid a:nth-child(5) .unCours {
+  /* On ajoute un délai d'animation à chaque cours proportionnel à sa position*/
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s; }
+
+#grid a:nth-child(6) .unCours {
+  /* On ajoute un délai d'animation à chaque cours proportionnel à sa position*/
+  -webkit-animation-delay: 1.2s;
+  animation-delay: 1.2s; }
+
+#grid a:nth-child(7) .unCours {
+  /* On ajoute un délai d'animation à chaque cours proportionnel à sa position*/
+  -webkit-animation-delay: 1.4s;
+  animation-delay: 1.4s; }
+
+#grid a:nth-child(8) .unCours {
+  /* On ajoute un délai d'animation à chaque cours proportionnel à sa position*/
+  -webkit-animation-delay: 1.6s;
+  animation-delay: 1.6s; }
+
+#grid a:nth-child(9) .unCours {
+  /* On ajoute un délai d'animation à chaque cours proportionnel à sa position*/
+  -webkit-animation-delay: 1.8s;
+  animation-delay: 1.8s; }
+
+#grid a:nth-child(10) .unCours {
+  /* On ajoute un délai d'animation à chaque cours proportionnel à sa position*/
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s; }
+
+#grid a:nth-child(11) .unCours {
+  /* On ajoute un délai d'animation à chaque cours proportionnel à sa position*/
+  -webkit-animation-delay: 2.2s;
+  animation-delay: 2.2s; }
+
+#grid a:nth-child(12) .unCours {
+  /* On ajoute un délai d'animation à chaque cours proportionnel à sa position*/
+  -webkit-animation-delay: 2.4s;
+  animation-delay: 2.4s; }
+
+#grid a:nth-child(13) .unCours {
+  /* On ajoute un délai d'animation à chaque cours proportionnel à sa position*/
+  -webkit-animation-delay: 2.6s;
+  animation-delay: 2.6s; }
+
+#grid a:nth-child(14) .unCours {
+  /* On ajoute un délai d'animation à chaque cours proportionnel à sa position*/
+  -webkit-animation-delay: 2.8s;
+  animation-delay: 2.8s; }
+
+#grid a:nth-child(15) .unCours {
+  /* On ajoute un délai d'animation à chaque cours proportionnel à sa position*/
+  -webkit-animation-delay: 3s;
+  animation-delay: 3s; }
+
+#grid a:nth-child(16) .unCours {
+  /* On ajoute un délai d'animation à chaque cours proportionnel à sa position*/
+  -webkit-animation-delay: 3.2s;
+  animation-delay: 3.2s; }
+
+#grid a:nth-child(17) .unCours {
+  /* On ajoute un délai d'animation à chaque cours proportionnel à sa position*/
+  -webkit-animation-delay: 3.4s;
+  animation-delay: 3.4s; }
+
+#grid a:nth-child(18) .unCours {
+  /* On ajoute un délai d'animation à chaque cours proportionnel à sa position*/
+  -webkit-animation-delay: 3.6s;
+  animation-delay: 3.6s; }
+
+#grid a:nth-child(19) .unCours {
+  /* On ajoute un délai d'animation à chaque cours proportionnel à sa position*/
+  -webkit-animation-delay: 3.8s;
+  animation-delay: 3.8s; }
+
+#grid a:nth-child(20) .unCours {
+  /* On ajoute un délai d'animation à chaque cours proportionnel à sa position*/
+  -webkit-animation-delay: 4s;
+  animation-delay: 4s; }
+
+#grid a:nth-child(21) .unCours {
+  /* On ajoute un délai d'animation à chaque cours proportionnel à sa position*/
+  -webkit-animation-delay: 4.2s;
+  animation-delay: 4.2s; }
+
+#grid a:nth-child(22) .unCours {
+  /* On ajoute un délai d'animation à chaque cours proportionnel à sa position*/
+  -webkit-animation-delay: 4.4s;
+  animation-delay: 4.4s; }
+
+#grid a:nth-child(23) .unCours {
+  /* On ajoute un délai d'animation à chaque cours proportionnel à sa position*/
+  -webkit-animation-delay: 4.6s;
+  animation-delay: 4.6s; }
+
+#grid a:nth-child(24) .unCours {
+  /* On ajoute un délai d'animation à chaque cours proportionnel à sa position*/
+  -webkit-animation-delay: 4.8s;
+  animation-delay: 4.8s; }
+
+#grid a:nth-child(25) .unCours {
+  /* On ajoute un délai d'animation à chaque cours proportionnel à sa position*/
+  -webkit-animation-delay: 5s;
+  animation-delay: 5s; }
+
+#grid a:nth-child(26) .unCours {
+  /* On ajoute un délai d'animation à chaque cours proportionnel à sa position*/
+  -webkit-animation-delay: 5.2s;
+  animation-delay: 5.2s; }
+
+#grid a:nth-child(27) .unCours {
+  /* On ajoute un délai d'animation à chaque cours proportionnel à sa position*/
+  -webkit-animation-delay: 5.4s;
+  animation-delay: 5.4s; }
+
+#grid a:nth-child(28) .unCours {
+  /* On ajoute un délai d'animation à chaque cours proportionnel à sa position*/
+  -webkit-animation-delay: 5.6s;
+  animation-delay: 5.6s; }
+
+#grid a:nth-child(29) .unCours {
+  /* On ajoute un délai d'animation à chaque cours proportionnel à sa position*/
+  -webkit-animation-delay: 5.8s;
+  animation-delay: 5.8s; }
 
 body {
   background-color: #F7F9F5; }
@@ -44,10 +247,13 @@ body {
   background-color: #eee;
   border: 1px solid #ddd;
   border-radius: 2px;
-  transition: box-shadow 0.2s, border 0.2s, transform 0.2s; }
+  transition: box-shadow 0.2s, border 0.2s, -webkit-transform 0.2s;
+  transition: box-shadow 0.2s, border 0.2s, transform 0.2s;
+  transition: box-shadow 0.2s, border 0.2s, transform 0.2s, -webkit-transform 0.2s; }
   .unCours:hover {
     box-shadow: 0 0 7px #bbb;
     border-color: #1572a9;
+    -webkit-transform: translateY(-5px);
     transform: translateY(-5px); }
 
 .entry-title, .cours-title {
@@ -56,10 +262,23 @@ body {
   color: #444; }
 
 .cours-title {
-  color: #2b4d9f; }
+  color: #2b4d9f !important;
+  margin-bottom: 0px !important; }
 
 .cours-title:first-child::before {
   opacity: 0; }
+
+.titreCours {
+  width: 100%;
+  text-align: left;
+  font-size: 35px; }
+
+.titreListe {
+  margin-bottom: 50px; }
+
+.page-header {
+  margin: 0 !important;
+  padding: 0 !important; }
 
 /* Couleurs par session*/
 .session1 {

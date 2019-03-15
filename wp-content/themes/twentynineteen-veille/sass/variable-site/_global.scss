@@ -39,12 +39,15 @@ body {
     background-color: #eee;
     border: 1px solid #ddd;
     border-radius: 2px;
+    transition: box-shadow 0.2s, border 0.2s, -webkit-transform 0.2s;
     transition: box-shadow 0.2s, border 0.2s, transform 0.2s;
+    transition: box-shadow 0.2s, border 0.2s, transform 0.2s, -webkit-transform 0.2s;
 
     &:hover {
         box-shadow: 0 0 7px #bbb;
         border-color: #1572a9;
-        transform: translateY(-5px);
+        -webkit-transform: translateY(-5px);
+                transform: translateY(-5px);
     }
 }
 
@@ -56,14 +59,26 @@ body {
 
 .cours-title {
     @extend .entry-title;
-    color: #2b4d9f;
+    color: #2b4d9f !important;
+    margin-bottom: 0px !important;
 }
 
 .cours-title:first-child::before {
     opacity: 0;
 }
 
-
+.titreCours {
+    width: 100%;
+    text-align: left;
+    font-size: 35px;
+}
+.titreListe {
+    margin-bottom: 50px;
+}
+.page-header {
+    margin: 0 !important;
+    padding: 0 !important;
+}
 
 /* Couleurs par session*/
 .session1 {
