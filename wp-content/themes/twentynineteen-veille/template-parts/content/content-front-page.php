@@ -10,20 +10,28 @@
  */
 
 ?>
-
+<!-- style="background-image: url(\'http://www.ltcdev.review/wp-content/uploads/2019/03/bateau2.jpg\')" -->
 
 		<?php
 		echo '<a href="';
 		echo (get_permalink());		
-		echo '"><div class="unCours">';          
+		echo '"><div class="unCours">';
 
-		echo '<h2 class="cours-title">';
+		echo '<div class="unCoursBg" style="background-image:url(\'';          
+
+
+		$image = get_field('image_de_fond');
+
+		echo ($image['url']);
+ 		echo "')\"></div>";
+
+		echo '<div class="unCoursContent"><h2 class="cours-title">';
 		echo(get_the_title());
 		echo '</h2>';
 
 		echo '<h2 class="excerpt">';
 		echo(get_the_excerpt());
-		echo '</h2>';
+		echo '</h2></div>';
 
 		echo '</div></a>';
 		?>
