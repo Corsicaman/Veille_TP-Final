@@ -10,7 +10,7 @@
  */
 
 ?>
-<!-- style="background-image: url(\'http://www.ltcdev.review/wp-content/uploads/2019/03/bateau2.jpg\')" -->
+
 
 		<?php
 		echo '<a href="';
